@@ -1,13 +1,11 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 752
+!Total lines: 751
 !Version: 1.5.6-release
 
 
 
 ||https://1010pic.com
-||https://16dd-advertise-1252317822.file.myqcloud.com
-||https://16dd-advertise-1252317822.image.myqcloud.com
 ||https://8le8le.com
 ||https://a0.app.xiaomi.com
 ||https://aaid.umeng.com
@@ -342,6 +340,7 @@
 ||https://jswebcollects.kugou.com
 ||https://kl.67it.com
 ||https://klink.volceapplog.com
+||https://ks.ferlytc.com
 ||https://ks.pull.yximgs.com
 ||https://launcher.smart-tv.cn
 ||https://launcherimg.smart-tv.cn
