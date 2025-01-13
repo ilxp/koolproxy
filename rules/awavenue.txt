@@ -1,6 +1,6 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 751
+!Total lines: 753
 !Version: 1.5.6-release
 
 
@@ -402,6 +402,7 @@
 ||https://mine.baidu.com
 ||https://mission-pub.smart-tv.cn
 ||https://miui-fxcse.avlyun.com
+||https://mmgame.qpic.cn
 ||https://mnqlog.ldmnq.com
 ||https://mobads-logs.baidu.com
 ||https://mobads-pre-config.cdn.bcebos.com
