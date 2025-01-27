@@ -1,6 +1,6 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 753
+!Total lines: 752
 !Version: 1.5.6-release
 
 
@@ -142,7 +142,6 @@
 ||https://analysis.yozocloud.cn
 ||https://analytics-api.samsunghealthcn.com
 ||https://analytics.126.net
-||https://analytics.95516.com
 ||https://analytics.google.com
 ||https://analytics.pinterest.com
 ||https://analytics.pointdrive.linkedin.com
