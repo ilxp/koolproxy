@@ -1,6 +1,6 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 752
+!Total lines: 751
 !Version: 1.5.6-release
 
 
@@ -307,7 +307,6 @@
 ||https://hugelog.fcbox.com
 ||https://huichuan.sm.cn
 ||https://hw-ot-ad.a.yximgs.com
-||https://hw.zuimeitianqi.com
 ||https://hwpub-s01-drcn.cloud.dbankcloud.cn
 ||https://hya.comp.360os.com
 ||https://hye.comp.360os.com
