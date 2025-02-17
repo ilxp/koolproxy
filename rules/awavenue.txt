@@ -1,11 +1,12 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 751
-!Version: 1.5.6-release
+!Total lines: 742
+!Version: 1.5.8-乙巳蛇年🐍-release
 
 
 
 ||https://1010pic.com
+||https://1500020991.vodplayer.wxamedia.com
 ||https://8le8le.com
 ||https://a0.app.xiaomi.com
 ||https://aaid.umeng.com
@@ -62,6 +63,7 @@
 ||https://ads-video-al.xhscdn.com
 ||https://ads-video-qc.xhscdn.com
 ||https://ads.95516.com
+||https://ads.flurry.com
 ||https://ads.google.cn
 ||https://ads.heytapmobi.com
 ||https://ads.huan.tv
@@ -71,6 +73,7 @@
 ||https://ads.music.126.net
 ||https://ads.oppomobile.com
 ||https://ads.pinterest.com
+||https://ads.pubmatic.com
 ||https://ads.servebom.com
 ||https://ads.service.kugou.com
 ||https://ads.tiktok.com
@@ -106,6 +109,8 @@
 ||https://adstats.tencentmusic.com
 ||https://adstore-1252524079.file.myqcloud.com
 ||https://adstore-index-1252524079.file.myqcloud.com
+||https://adstudio-assets.scdn.co
+||https://adstudio.spotify.com
 ||https://adtago.s3.amazonaws.com
 ||https://adtech.yahooinc.com
 ||https://adtrack.quark.cn
@@ -296,7 +301,10 @@
 ||https://grs.dbankcloud.com
 ||https://grs.hicloud.com
 ||https://grs.platform.dbankcloud.ru
+||https://gvideo.qpic.cn
 ||https://hanlanad.com
+||https://heads-ak.spotify.com.edgesuite.net
+||https://heads-fa.spotify.com
 ||https://hexagon-analytics.com
 ||https://hm.baidu.com
 ||https://hmma.baidu.com
@@ -402,6 +410,7 @@
 ||https://miui-fxcse.avlyun.com
 ||https://mmgame.qpic.cn
 ||https://mnqlog.ldmnq.com
+||https://moatads.com
 ||https://mobads-logs.baidu.com
 ||https://mobads-pre-config.cdn.bcebos.com
 ||https://mobads.baidu.com
@@ -448,6 +457,7 @@
 ||https://pagead2.googlesyndication.com
 ||https://pangolin-sdk-toutiao-b.com
 ||https://pay.sboot.cn
+||https://pgdt.gtimg.cn
 ||https://pgdt.ugdtimg.com
 ||https://pglstatp-toutiao.com
 ||https://pig.pupuapi.com
@@ -552,6 +562,7 @@
 ||https://tvuser-ch.cedock.com
 ||https://tx-ad.a.yximgs.com
 ||https://tx-kmpaudio.pull.yximgs.com
+||https://tytx.m.cn.miaozhen.com
 ||https://tz.sec.xiaomi.com
 ||https://uapi.ads.heytapmobi.com
 ||https://udc.yahoo.com
@@ -582,36 +593,14 @@
 ||https://volc.bj.ad.track.66mobi.com
 ||https://vungle.com
 ||https://w1.askwai.com
-||https://w1.bskwai.com
-||https://w1.cskwai.com
-||https://w1.dskwai.com
-||https://w1.eskwai.com
-||https://w1.fskwai.com
 ||https://w1.gskwai.com
-||https://w1.hskwai.com
-||https://w1.iskwai.com
-||https://w1.jskwai.com
 ||https://w1.kskwai.com
-||https://w1.lskwai.com
-||https://w1.mskwai.com
-||https://w1.nskwai.com
-||https://w1.oskwai.com
-||https://w1.pskwai.com
-||https://w1.qskwai.com
-||https://w1.rskwai.com
-||https://w1.sskwai.com
-||https://w1.tskwai.com
-||https://w1.uskwai.com
-||https://w1.vskwai.com
-||https://w1.wskwai.com
-||https://w1.xskwai.com
-||https://w1.yskwai.com
-||https://w1.zskwai.com
 ||https://weather-community-drcn.weather.dbankcloud.cn
 ||https://webstat.qiumibao.com
 ||https://webview.unityads.unity3d.com
 ||https://widgets.outbrain.com
 ||https://widgets.pinterest.com
+||https://wildcard.moatads.com.edgekey.net
 ||https://ws-keyboard.shouji.sogou.com
 ||https://www42.zskwai.com
 ||https://xiaomi-dtv.m.cn.miaozhen.com
