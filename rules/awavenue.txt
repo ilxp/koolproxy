@@ -1,6 +1,6 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 742
+!Total lines: 749
 !Version: 1.5.8-乙巳蛇年🐍-release
 
 
@@ -37,6 +37,7 @@
 ||https://ad.xiaomi.com
 ||https://ad.ximalaya.com
 ||https://ad.zijieapi.com
+||https://ad2.ettoday.net
 ||https://adapi.izuiyou.com
 ||https://adapi.yynetwk.com
 ||https://adc.hpplay.cn
@@ -245,6 +246,7 @@
 ||https://data.mistat.rus.xiaomi.com
 ||https://data.mistat.xiaomi.com
 ||https://dc.sigmob.cn
+||https://de.tynt.com
 ||https://diagnosis.ad.xiaomi.com
 ||https://dig.bdurl.net
 ||https://dl.zuimeitianqi.com
@@ -333,6 +335,7 @@
 ||https://img.adnyg.com
 ||https://img.adnyg.com.w.kunlungr.com
 ||https://imtmp.net
+||https://in.treasuredata.com
 ||https://iot-eu-logser.realme.com
 ||https://iot-logser.realme.com
 ||https://ipv4.kkmh.com
@@ -379,6 +382,7 @@
 ||https://log.fc.yahoo.com
 ||https://log.kuwo.cn
 ||https://log.pinterest.com
+||https://log.popin.cc
 ||https://log.snssdk.com
 ||https://log.stat.kugou.com
 ||https://log.tagtic.cn
@@ -446,7 +450,6 @@
 ||https://p1-lm.adkwai.com
 ||https://p2-be-pack-sign.pglstatp-toutiao.com
 ||https://p2-lm.adkwai.com
-||https://p2p.huya.com
 ||https://p3-be-pack-sign.pglstatp-toutiao.com
 ||https://p3-lm.adkwai.com
 ||https://p3-tt.byteimg.com
@@ -476,10 +479,12 @@
 ||https://resolve.umeng.com
 ||https://rev.aiclk.com
 ||https://review.gdtimg.com
+||https://rlog.popin.cc
 ||https://rms-drcn.platform.dbankcloud.cn
 ||https://roi.soulapp.cn
 ||https://rtb.voiceads.cn
 ||https://s.amazon-adsystem.com
+||https://s8t.teads.tv
 ||https://saad.ms.zhangyue.net
 ||https://samsung-com.112.2o7.net
 ||https://samsungads.com
@@ -529,9 +534,11 @@
 ||https://syh-imp.cdnjtzy.com
 ||https://szbdyd.com
 ||https://t-dsp.pinduoduo.com
+||https://t.teads.tv
 ||https://t.track.ad.xiaomi.com
 ||https://t002.ottcn.com
 ||https://t1.a.market.xiaomi.com
+||https://t1.teads.tv
 ||https://t2.a.market.xiaomi.com
 ||https://t3.a.market.xiaomi.com
 ||https://tdsdk.cpatrk.net
