@@ -1,6 +1,6 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 749
+!Total lines: 752
 !Version: 1.5.8-乙巳蛇年🐍-release
 
 
@@ -228,6 +228,7 @@
 ||https://click.googleanalytics.com
 ||https://click.oneplus.cn
 ||https://clog.miguvideo.com
+||https://cn-api.anythinktech.com
 ||https://cnlogs.umeng.com
 ||https://cnlogs.umengcloud.com
 ||https://cnzz.com
@@ -245,6 +246,7 @@
 ||https://data.mistat.india.xiaomi.com
 ||https://data.mistat.rus.xiaomi.com
 ||https://data.mistat.xiaomi.com
+||https://datk.anythinktech.com
 ||https://dc.sigmob.cn
 ||https://de.tynt.com
 ||https://diagnosis.ad.xiaomi.com
@@ -609,6 +611,7 @@
 ||https://widgets.pinterest.com
 ||https://wildcard.moatads.com.edgekey.net
 ||https://ws-keyboard.shouji.sogou.com
+||https://wwads.cn
 ||https://www42.zskwai.com
 ||https://xiaomi-dtv.m.cn.miaozhen.com
 ||https://xlivrdr.com
