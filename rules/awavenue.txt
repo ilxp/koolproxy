@@ -1,7 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 752
+!Total lines: 753
 !Version: 1.5.8-乙巳蛇年🐍-release
+!Update time: 2025-03-08 22:35:13 UTC+8
+!Update content: fix “terms-drcn.platform.dbankcloud.cn” #122
 
 
 
@@ -80,6 +82,7 @@
 ||https://ads.tiktok.com
 ||https://ads.v3mh.com
 ||https://ads.youtube.com
+||https://ads.zhinengxiyifang.cn
 ||https://ads3-normal-hl.zijieapi.com
 ||https://ads3-normal-lf.zijieapi.com
 ||https://ads3-normal-lq.zijieapi.com
@@ -181,6 +184,7 @@
 ||https://api.kingdata.ksyun.com
 ||https://api.statsig.com
 ||https://api.touch-moblie.com
+||https://api.yfanads.com
 ||https://api5-normal-quic-lf.ixigua.com
 ||https://apiyd.my91app.com
 ||https://apks.webxiaobai.top
@@ -546,7 +550,6 @@
 ||https://tdsdk.cpatrk.net
 ||https://tdsdk.xdrig.com
 ||https://tencent-dtv.m.cn.miaozhen.com
-||https://terms-drcn.platform.dbankcloud.cn
 ||https://test.ad.xiaomi.com
 ||https://test.e.ad.xiaomi.com
 ||https://tnc3-aliec1.toutiaoapi.com
