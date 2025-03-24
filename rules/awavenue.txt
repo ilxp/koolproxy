@@ -1,9 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 755
-!Version: 1.5.8-乙巳蛇年🐍-release
-!Update time: 2025-03-12 18:05:45 UTC+8
-!Update content: block more WeChat skit ads.
+!Total lines: 699
+!Version: 1.5.9-release
+!Update time: 2025-03-23 00:17:14 UTC+8
+!Update content: 添加读取原始规则的合法性 有效性校验以及修复之前的部分错误，对dns层拦截的插件添加ipv6屏蔽兼容
 
 
 
@@ -14,7 +14,6 @@
 ||https://a0.app.xiaomi.com
 ||https://aaid.umeng.com
 ||https://abtest-ch.snssdk.com
-||https://ad-cache.dopool.com
 ||https://ad-cdn.qingting.fm
 ||https://ad-cmp.hismarttv.com
 ||https://ad-download.hismarttv.com
@@ -29,6 +28,7 @@
 ||https://ad.cctv.com
 ||https://ad.cyapi.cn
 ||https://ad.doubleclick.net
+||https://ad.hpplay.cn
 ||https://ad.partner.gifshow.com
 ||https://ad.qingting.fm
 ||https://ad.richmob.cn
@@ -36,8 +36,6 @@
 ||https://ad.toutiao.com
 ||https://ad.v3mh.com
 ||https://ad.winrar.com.cn
-||https://ad.xelements.cn
-||https://ad.xiaomi.com
 ||https://ad.ximalaya.com
 ||https://ad.zijieapi.com
 ||https://ad2.ettoday.net
@@ -49,33 +47,29 @@
 ||https://adclick.g.doubleclick.net
 ||https://adclick.tencentmusic.com
 ||https://adcolony.com
+||https://adeng.hpplay.cn
 ||https://adexpo.tencentmusic.com
 ||https://adfstat.yandex.ru
 ||https://adguanggao.eee114.com
 ||https://adjust.cn
 ||https://adjust.com
-||https://adkwai.com
 ||https://adlink-api.huan.tv
 ||https://adm.funshion.com
 ||https://ads-api-o.api.leiniao.com
 ||https://ads-api.tiktok.com
 ||https://ads-img-qc.xhscdn.com
-||https://ads-jp.tiktok.com
 ||https://ads-marketing-vivofs.vivo.com.cn
 ||https://ads-sg.tiktok.com
-||https://ads-us.tiktok.com
 ||https://ads-video-al.xhscdn.com
 ||https://ads-video-qc.xhscdn.com
 ||https://ads.95516.com
 ||https://ads.flurry.com
 ||https://ads.google.cn
-||https://ads.heytapmobi.com
 ||https://ads.huan.tv
 ||https://ads.huantest.com
 ||https://ads.icloseli.cn
 ||https://ads.linkedin.com
 ||https://ads.music.126.net
-||https://ads.oppomobile.com
 ||https://ads.pinterest.com
 ||https://ads.pubmatic.com
 ||https://ads.servebom.com
@@ -98,7 +92,6 @@
 ||https://adsebs.ximalaya.com
 ||https://adsense.google.cn
 ||https://adserver.unityads.unity3d.com
-||https://adservice.google.cn
 ||https://adservice.google.com
 ||https://adservice.sigmob.cn
 ||https://adserviceretry.kugou.com
@@ -119,11 +112,9 @@
 ||https://adtago.s3.amazonaws.com
 ||https://adtech.yahooinc.com
 ||https://adtrack.quark.cn
-||https://adukwai.com
 ||https://adv.fjtv.net
 ||https://adv.sec.intl.miui.com
 ||https://adv.sec.miui.com
-||https://advertiseonbing.azureedge.net
 ||https://advertising-api-eu.amazon.com
 ||https://advertising-api-fe.amazon.com
 ||https://advertising-api.amazon.com
@@ -140,7 +131,6 @@
 ||https://adx.ads.heytapmobi.com
 ||https://adx.ads.oppomobile.com
 ||https://adxlog-adnet.vivo.com.cn
-||https://adxlog-adnet.vivo.com.cn.dsa.dnsv1.com.cn
 ||https://adxserver.ad.cmvideo.cn
 ||https://afs.googlesyndication.com
 ||https://aiseet.aa.atianqi.com
@@ -148,10 +138,8 @@
 ||https://alog.umeng.com
 ||https://alogus.umeng.com
 ||https://als.baidu.com
-||https://amdcopen.m.umeng.com
 ||https://analysis.yozocloud.cn
 ||https://analytics-api.samsunghealthcn.com
-||https://analytics.126.net
 ||https://analytics.google.com
 ||https://analytics.pinterest.com
 ||https://analytics.pointdrive.linkedin.com
@@ -172,7 +160,6 @@
 ||https://api-access.pangolin-sdk-toutiao2.com
 ||https://api-access.pangolin-sdk-toutiao3.com
 ||https://api-access.pangolin-sdk-toutiao4.com
-||https://api-access.pangolin-sdk-toutiao5.com
 ||https://api-ad-product.huxiu.com
 ||https://api-gd.hiaiabc.com
 ||https://api-htp.beizi.biz
@@ -181,23 +168,19 @@
 ||https://api.htp.hubcloud.com.cn
 ||https://api.hzsanjiaomao.com
 ||https://api.installer.xiaomi.com
-||https://api.jietuhb.com
 ||https://api.kingdata.ksyun.com
 ||https://api.statsig.com
 ||https://api.touch-moblie.com
 ||https://api.yfanads.com
 ||https://api5-normal-quic-lf.ixigua.com
 ||https://apiyd.my91app.com
-||https://apks.webxiaobai.top
 ||https://app-measurement.com
 ||https://applog.lc.quark.cn
 ||https://applog.uc.cn
 ||https://applog.zijieapi.com
 ||https://aspect-upush.umeng.com
-||https://ata-sdk-uuid-report.dreport.meituan.net
 ||https://auction.unityads.unity3d.com
 ||https://audid.umeng.com
-||https://azr.footprintdns.com
 ||https://b1-data.ads.heytapmobi.com
 ||https://baichuan-sdk.alicdn.com
 ||https://bdad.123pan.cn
@@ -224,8 +207,8 @@
 ||https://cdn-ad.wtzw.com
 ||https://cdn-ads.oss-cn-shanghai.aliyuncs.com
 ||https://cdn-plugin-sync-upgrade-juui.hismarttv.com
-||https://cdn.ad.xiaomi.com
 ||https://cdn.aiclk.com
+||https://cdn.hpplay.com.cn
 ||https://cdn.ynuf.aliapp.org
 ||https://chiq-cloud.com
 ||https://cj.qidian.com
@@ -238,6 +221,7 @@
 ||https://cnlogs.umengcloud.com
 ||https://cnzz.com
 ||https://collect.kugou.com
+||https://conf.hpplay.cn
 ||https://config.chsmarttv.com
 ||https://config.unityads.unity3d.com
 ||https://cpc-service-square.aiclk.com
@@ -266,7 +250,6 @@
 ||https://drcn-weather.cloud.huawei.com
 ||https://dsp.fcbox.com
 ||https://dualstack-logs.amap.com
-||https://dutils.com
 ||https://dxp.baidu.com
 ||https://e.ad.xiaomi.com
 ||https://eclick.baidu.com
@@ -285,8 +268,7 @@
 ||https://flurry.com
 ||https://frontend-perf-service.e.kuaishou.com
 ||https://fxgate.baidu.com
-||https://g-adnet.hiaiabc.com
-||https://g-staic.ganjingworld.com
+||https://g.dtv.cn.miaozhen.com
 ||https://g2.ganjing.world
 ||https://game.loveota.com
 ||https://gdfp.gifshow.com
@@ -294,60 +276,52 @@
 ||https://geo.yahoo.com
 ||https://getui.cn
 ||https://getui.com
-||https://getui.net
 ||https://ggx.cmvideo.cn
 ||https://ggx01.miguvideo.com
 ||https://ggx03.miguvideo.com
-||https://globalapi.ad.xiaomi.com
 ||https://google-analytics.com
 ||https://googleads.g.doubleclick.net
 ||https://googleadservices-cn.com
 ||https://googleadservices.com
 ||https://googletagservices-cn.com
-||https://googletagservices.com
 ||https://gorgon.youdao.com
 ||https://gromore.pangolin-sdk-toutiao.com
 ||https://grs.dbankcloud.com
 ||https://grs.hicloud.com
-||https://grs.platform.dbankcloud.ru
+||https://gslb.hpplay.cn
 ||https://gvideo.qpic.cn
+||https://h5.hpplay.com.cn
 ||https://hanlanad.com
 ||https://heads-ak.spotify.com.edgesuite.net
 ||https://heads-fa.spotify.com
 ||https://hexagon-analytics.com
 ||https://hm.baidu.com
 ||https://hmma.baidu.com
+||https://hotupgrade.hpplay.cn
 ||https://houyi.kkmh.com
-||https://hpplay.cn
 ||https://httpdns.bcelive.com
 ||https://httpdns.ocloud.oppomobile.com
 ||https://hugelog.fcbox.com
 ||https://huichuan.sm.cn
 ||https://hw-ot-ad.a.yximgs.com
 ||https://hwpub-s01-drcn.cloud.dbankcloud.cn
-||https://hya.comp.360os.com
 ||https://hye.comp.360os.com
 ||https://hyt.comp.360os.com
 ||https://iadctest.qwapi.com
 ||https://ifacelog.iqiyi.com
 ||https://ifs.tanx.com
-||https://igexin.com
-||https://imag8.pubmatic.com
-||https://imag86.pubmatic.com
 ||https://image-ad.sm.cn
-||https://imageplus.baidu.com
+||https://image.hpplay.cn
 ||https://images.outbrainimg.com
 ||https://images.pinduoduo.com
+||https://imdns.hpplay.cn
 ||https://img-c.heytapimage.com
-||https://img.adnyg.com
 ||https://img.adnyg.com.w.kunlungr.com
-||https://imtmp.net
 ||https://in.treasuredata.com
 ||https://iot-eu-logser.realme.com
 ||https://iot-logser.realme.com
 ||https://ipv4.kkmh.com
 ||https://irc.qubiankeji.com
-||https://itv2-up.openspeech.cn
 ||https://ixav-cse.avlyun.com
 ||https://iyfbodn.com
 ||https://jiguang.cn
@@ -384,7 +358,6 @@
 ||https://log.amemv.com
 ||https://log.appstore3.huan.tv
 ||https://log.avlyun.com
-||https://log.avlyun.sec.intl.miui.com
 ||https://log.byteoversea.com
 ||https://log.fc.yahoo.com
 ||https://log.kuwo.cn
@@ -405,7 +378,6 @@
 ||https://logtj.kugou.com
 ||https://logupdate.avlyun.sec.miui.com
 ||https://luimg.baidu.com
-||https://m-adnet.hiaiabc.com
 ||https://m.ad.zhangyue.com
 ||https://m.atm.youku.com
 ||https://m1.ad.10010.com
@@ -416,7 +388,6 @@
 ||https://metrika.yandex.ru
 ||https://miav-cse.avlyun.com
 ||https://mime.baidu.com
-||https://mine.baidu.com
 ||https://mission-pub.smart-tv.cn
 ||https://miui-fxcse.avlyun.com
 ||https://mmgame.qpic.cn
@@ -427,7 +398,6 @@
 ||https://mobads.baidu.com
 ||https://mobile.da.mgtv.com
 ||https://mobilelog.upqzfile.com
-||https://mobileservice.cn
 ||https://mon.zijieapi.com
 ||https://monitor-ads-test.huan.tv
 ||https://monitor-uu.play.aiseet.atianqi.com
@@ -453,24 +423,18 @@
 ||https://otheve.play.aiseet.atianqi.com
 ||https://outlookads.live.com
 ||https://p.s.360.cn
-||https://p1-be-pack-sign.pglstatp-toutiao.com
 ||https://p1-lm.adkwai.com
-||https://p2-be-pack-sign.pglstatp-toutiao.com
 ||https://p2-lm.adkwai.com
 ||https://p3-be-pack-sign.pglstatp-toutiao.com
 ||https://p3-lm.adkwai.com
 ||https://p3-tt.byteimg.com
-||https://p4-be-pack-sign.pglstatp-toutiao.com
-||https://p5-be-pack-sign.pglstatp-toutiao.com
 ||https://p6-be-pack-sign.pglstatp-toutiao.com
 ||https://pagead2.googleadservices.com
 ||https://pagead2.googlesyndication.com
-||https://pangolin-sdk-toutiao-b.com
-||https://pay.sboot.cn
 ||https://pgdt.gtimg.cn
 ||https://pgdt.ugdtimg.com
-||https://pglstatp-toutiao.com
 ||https://pig.pupuapi.com
+||https://pin.hpplay.cn
 ||https://pixon.ads-pixiv.net
 ||https://pkoplink.com
 ||https://plbslog.umeng.com
@@ -479,16 +443,13 @@
 ||https://public.gdtimg.com
 ||https://qzs.gdtimg.com
 ||https://recommend-drcn.hms.dbankcloud.cn
-||https://res.hubcloud.com.cn
 ||https://res1.hubcloud.com.cn
-||https://res2.hubcloud.com.cn
-||https://res3.hubcloud.com.cn
 ||https://resolve.umeng.com
-||https://rev.aiclk.com
 ||https://review.gdtimg.com
 ||https://rlog.popin.cc
 ||https://rms-drcn.platform.dbankcloud.cn
 ||https://roi.soulapp.cn
+||https://rp.hpplay.cn
 ||https://rtb.voiceads.cn
 ||https://s.amazon-adsystem.com
 ||https://s8t.teads.tv
@@ -501,17 +462,16 @@
 ||https://sdk-cache.video.ptqy.gitv.tv
 ||https://sdk.1rtb.net
 ||https://sdk.beizi.biz
-||https://sdk.cferw.com
 ||https://sdk.hzsanjiaomao.com
 ||https://sdk.markmedia.com.cn
 ||https://sdk.mobads.adwangmai.com
+||https://sdkauth.hpplay.cn
 ||https://sdkconf.avlyun.com
 ||https://sdkconfig.ad.intl.xiaomi.com
 ||https://sdkconfig.ad.xiaomi.com
 ||https://sdkconfig.play.aiseet.atianqi.com
 ||https://sdkoptedge.chinanetcenter.com
 ||https://sdktmp.hubcloud.com.cn
-||https://sdownload.stargame.com
 ||https://search.ixigua.com
 ||https://search3-search.ixigua.com
 ||https://search5-search-hl.ixigua.com
@@ -523,11 +483,10 @@
 ||https://sf16-static.i18n-pglstatp.com
 ||https://sf3-fe-tos.pglstatp-toutiao.com
 ||https://shouji.sogou.com
-||https://sigmob.cn
 ||https://sigmob.com
+||https://sl.hpplay.cn
 ||https://slb-p2p.vcloud.ks-live.com
 ||https://smad.ms.zhangyue.net
-||https://smart-tv.cn
 ||https://smartad.10010.com
 ||https://smetrics.samsung.com
 ||https://sms.ads.oppomobile.com
@@ -543,7 +502,6 @@
 ||https://t-dsp.pinduoduo.com
 ||https://t.teads.tv
 ||https://t.track.ad.xiaomi.com
-||https://t002.ottcn.com
 ||https://t1.a.market.xiaomi.com
 ||https://t1.teads.tv
 ||https://t2.a.market.xiaomi.com
@@ -553,13 +511,10 @@
 ||https://tencent-dtv.m.cn.miaozhen.com
 ||https://terms-drcn.platform.dbankcloud.cn
 ||https://test.ad.xiaomi.com
-||https://test.e.ad.xiaomi.com
-||https://tnc3-aliec1.toutiaoapi.com
 ||https://tnc3-aliec2.bytedance.com
 ||https://tnc3-aliec2.toutiaoapi.com
 ||https://tnc3-alisc1.bytedance.com
 ||https://tnc3-alisc1.zijieapi.com
-||https://tnc3-alisc2.zijieapi.com
 ||https://tnc3-bjlgy.bytedance.com
 ||https://tnc3-bjlgy.toutiaoapi.com
 ||https://tnc3-bjlgy.zijieapi.com
@@ -573,6 +528,7 @@
 ||https://tracking.miui.com
 ||https://tracking.rus.miui.com
 ||https://tsvrv.com
+||https://tvapp.hpplay.cn
 ||https://tvuser-ch.cedock.com
 ||https://tx-ad.a.yximgs.com
 ||https://tx-kmpaudio.pull.yximgs.com
@@ -587,7 +543,6 @@
 ||https://ulogs.umeng.com
 ||https://ulogs.umengcloud.com
 ||https://umini.shujupie.com
-||https://umsns.com
 ||https://union.baidu.cn
 ||https://union.baidu.com
 ||https://update.avlyun.sec.miui.com
@@ -603,6 +558,7 @@
 ||https://v3-ad.video.yximgs.com
 ||https://video-ad.sm.cn
 ||https://video-dsp.pddpic.com
+||https://vipauth.hpplay.cn
 ||https://virusinfo-cloudscan-cn.heytapmobi.com
 ||https://volc.bj.ad.track.66mobi.com
 ||https://vungle.com
@@ -617,16 +573,12 @@
 ||https://wildcard.moatads.com.edgekey.net
 ||https://ws-keyboard.shouji.sogou.com
 ||https://wwads.cn
-||https://www42.zskwai.com
 ||https://xiaomi-dtv.m.cn.miaozhen.com
-||https://xlivrdr.com
-||https://xlmzc.cnjp-exp.com
 ||https://xlviiirdr.com
 ||https://xlviirdr.com
 ||https://yk-ssp.ad.youku.com
 ||https://ykad-data.youku.com
 ||https://ykad-gateway.youku.com
-||https://youxi.kugou.com
 ||https://zeus.ad.xiaomi.com
 /.*\.*\.shouji\.sogou\.com/
 /.*\.a\.market\.xiaomi\.com/
