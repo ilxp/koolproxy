@@ -2,8 +2,8 @@
 !--------------------------------------
 !Total lines: 700
 !Version: 1.5.9-release
-!Update time: 2025-03-24 11:36:53 UTC+8
-!Update content: Update domain.txt
+!Update time: 2025-04-02 09:29:30 UTC+8
+!Update content: remove oauth-login-drcn.platform.dbankcloud.com fix #127
 
 
 
@@ -112,7 +112,6 @@
 ||https://adtago.s3.amazonaws.com
 ||https://adtech.yahooinc.com
 ||https://adtrack.quark.cn
-||https://adv.fjtv.net
 ||https://adv.sec.intl.miui.com
 ||https://adv.sec.miui.com
 ||https://advertising-api-eu.amazon.com
@@ -168,6 +167,7 @@
 ||https://api.htp.hubcloud.com.cn
 ||https://api.hzsanjiaomao.com
 ||https://api.installer.xiaomi.com
+||https://api.jietuhb.com
 ||https://api.kingdata.ksyun.com
 ||https://api.statsig.com
 ||https://api.touch-moblie.com
@@ -205,6 +205,7 @@
 ||https://cbjs.baidu.com
 ||https://ccs.umeng.com
 ||https://cctv.adsunion.com
+||https://cdn-ad.wtzw.com
 ||https://cdn-ads.oss-cn-shanghai.aliyuncs.com
 ||https://cdn-plugin-sync-upgrade-juui.hismarttv.com
 ||https://cdn.aiclk.com
@@ -411,7 +412,6 @@
 ||https://nmetrics.samsung.com
 ||https://nsclick.baidu.com
 ||https://o2o.api.xiaomi.com
-||https://oauth-login-drcn.platform.dbankcloud.com
 ||https://offerwall.yandex.net
 ||https://omgmta.play.aiseet.atianqi.com
 ||https://open.e.kuaishou.cn
