@@ -1,9 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 737
+!Total lines: 733
 !Version: 1.6.0-release
-!Update time: 2025-04-13 16:40:05 UTC+8
-!Update content: 对齐注释
+!Update time: 2025-04-15 19:04:21 UTC+8
+!Update content: add “micro-xdb.com” ads.
 
 
 
@@ -15,9 +15,6 @@
 ||https://aaid.umeng.com
 ||https://abtest-ch.snssdk.com
 ||https://ad-cdn.qingting.fm
-||https://ad-cmp.hismarttv.com
-||https://ad-download.hismarttv.com
-||https://ad-imp.hismarttv.com
 ||https://ad-scope.com
 ||https://ad-scope.com.cn
 ||https://ad-sdk-config.youdao.com
@@ -308,7 +305,6 @@
 ||https://heads-ak.spotify.com.edgesuite.net
 ||https://heads-fa.spotify.com
 ||https://hexagon-analytics.com
-||https://hismarttv.com
 ||https://hm.baidu.com
 ||https://hmma.baidu.com
 ||https://hotupgrade.hpplay.cn
@@ -410,6 +406,7 @@
 ||https://metrics2.data.hicloud.com
 ||https://metrika.yandex.ru
 ||https://miav-cse.avlyun.com
+||https://micro-xdb.com
 ||https://mime.baidu.com
 ||https://mini-prog-drm.vodplayvideo.net
 ||https://mission-pub.smart-tv.cn
@@ -521,7 +518,6 @@
 ||https://sms.ads.oppomobile.com
 ||https://stat.dongqiudi.com
 ||https://statics.woozooo.com
-||https://stats.qiumibao.com
 ||https://stats.wp.com
 ||https://statsigapi.net
 ||https://stg-data.ads.heytapmobi.com
