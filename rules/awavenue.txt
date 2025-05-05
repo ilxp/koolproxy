@@ -1,9 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 781
+!Total lines: 794
 !Version: 1.6.5-release
-!Update time: 2025-04-25 03:13:15 UTC+8
-!Update content: remove "ads-us.tiktok.com" to refresh the version.
+!Update time: 2025-04-29 18:01:30 UTC+8
+!Update content: add ubixai、zhangyu、yuedong、ruishi ads block.
 
 
 
@@ -26,6 +26,7 @@
 ||https://ad.cctv.com
 ||https://ad.cyapi.cn
 ||https://ad.doubleclick.net
+||https://ad.gameley.com
 ||https://ad.hpplay.cn
 ||https://ad.partner.gifshow.com
 ||https://ad.qingting.fm
@@ -59,6 +60,7 @@
 ||https://ads-api.tiktok.com
 ||https://ads-img-qc.xhscdn.com
 ||https://ads-marketing-vivofs.vivo.com.cn
+||https://ads-sdk-api.ranfenghd.com
 ||https://ads-sg.tiktok.com
 ||https://ads-video-al.xhscdn.com
 ||https://ads-video-qc.xhscdn.com
@@ -87,6 +89,7 @@
 ||https://ads5-normal-lf.zijieapi.com
 ||https://ads5-normal-lq.zijieapi.com
 ||https://ads5-normal.zijieapi.com
+||https://adsdk.vivo.com.cn
 ||https://adse.test.ximalaya.com
 ||https://adse.wsa.ximalaya.com
 ||https://adse.ximalaya.com
@@ -133,6 +136,7 @@
 ||https://adx.ads.oppomobile.com
 ||https://adx.appsdk.com.cn
 ||https://adx.sogaha.cn
+||https://adx.tuia.cn
 ||https://adxlog-adnet.vivo.com.cn
 ||https://adxserver.ad.cmvideo.cn
 ||https://afs.googlesyndication.com
@@ -317,6 +321,7 @@
 ||https://gvideo.qpic.cn
 ||https://h5.hpplay.com.cn
 ||https://hanlanad.com
+||https://hc-ssp.sm.cn
 ||https://heads-ak.spotify.com.edgesuite.net
 ||https://heads-fa.spotify.com
 ||https://hexagon-analytics.com
@@ -446,6 +451,7 @@
 ||https://ms.applvn.com
 ||https://ms4.applovin.com
 ||https://ms4.applvn.com
+||https://msdk.voiceads.cn
 ||https://mssdk.volces.com
 ||https://mssdk.zijieapi.com
 ||https://mtj.baidu.com
@@ -658,9 +664,17 @@
 ||https://ytx-file.110route.cn
 ||https://zeus.ad.xiaomi.com
 /.*\.*\.shouji\.sogou\.com/
+/.*\.1rtb\.com/
 /.*\.a\.market\.xiaomi\.com/
+/.*\.ad\.gameley\.com/
+/.*\.adintl\.cn/
+/.*\.adx\.adwangmai\.com/
 /.*\.data\.hicloud\.com/
 /.*\.log\.aliyuncs\.com/
+/.*\.ubixioe\.com/
+/.*\.vlion\.cn/
+/.*\.yfanads\.com/
+/.*\.zhangyuyidong\.cn/
 /[a-zA-Z0-9.-]*-ad-[a-zA-Z0-9.-]*\.byteimg\.com/
 /[a-zA-Z0-9.-]*-ad\.sm\.cn/
 /[a-zA-Z0-9.-]*-ad\.video\.yximgs\.com/
