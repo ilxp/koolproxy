@@ -1,9 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 794
+!Total lines: 797
 !Version: 1.6.5-release
-!Update time: 2025-04-29 18:01:30 UTC+8
-!Update content: add ubixai、zhangyu、yuedong、ruishi ads block.
+!Update time: 2025-05-10 00:22:18 UTC+8
+!Update content: more xiaohongshu ads block. #136
 
 
 
@@ -58,6 +58,7 @@
 ||https://adm.funshion.com
 ||https://ads-api-o.api.leiniao.com
 ||https://ads-api.tiktok.com
+||https://ads-img-al.xhscdn.com
 ||https://ads-img-qc.xhscdn.com
 ||https://ads-marketing-vivofs.vivo.com.cn
 ||https://ads-sdk-api.ranfenghd.com
@@ -65,7 +66,6 @@
 ||https://ads-video-al.xhscdn.com
 ||https://ads-video-qc.xhscdn.com
 ||https://ads.95516.com
-||https://ads.flurry.com
 ||https://ads.google.cn
 ||https://ads.huan.tv
 ||https://ads.huantest.com
@@ -75,6 +75,7 @@
 ||https://ads.music.126.net
 ||https://ads.pinterest.com
 ||https://ads.pubmatic.com
+||https://ads.raidrive.com
 ||https://ads.servebom.com
 ||https://ads.service.kugou.com
 ||https://ads.tiktok.com
@@ -484,6 +485,7 @@
 ||https://p6-be-pack-sign.pglstatp-toutiao.com
 ||https://pagead2.googleadservices.com
 ||https://pagead2.googlesyndication.com
+||https://pay.sboot.cn
 ||https://pcdn.xmcdn.com
 ||https://pgdt.gtimg.cn
 ||https://pgdt.ugdtimg.com
