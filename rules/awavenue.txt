@@ -1,9 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 841
+!Total lines: 845
 !Version: 1.6.5-release
-!Update time: 2025-05-21 17:53:35 UTC+8
-!Update content: block more lebo、adjust ads.
+!Update time: 2025-05-30 20:03:25 UTC+8
+!Update content: add HKTVMALL ads block. #143
 
 
 
@@ -11,6 +11,7 @@
 ||https://1500022744.vodplayer.wxamedia.com
 ||https://1500026601.vodplayer.wxamedia.com
 ||https://8le8le.com
+||https://8rn1y79f02-1.algolianet.com
 ||https://a0.app.xiaomi.com
 ||https://aaid.umeng.com
 ||https://abtest-ch.snssdk.com
@@ -19,6 +20,8 @@
 ||https://ad-scope.com.cn
 ||https://ad-sdk-config.youdao.com
 ||https://ad-sdk.huxiu.com
+||https://ad-splash-tracking.hktvmall.com
+||https://ad-splash.hktvmall.com
 ||https://ad.12306.cn
 ||https://ad.51wnl.com
 ||https://ad.api.3g.youku.com
@@ -397,6 +400,7 @@
 ||https://lf6-ad-union-sdk.pglstatp-toutiao.com
 ||https://lh3.googleadsserving.cn
 ||https://litchiads.com
+||https://live-api.hktvmall.com
 ||https://liveats-vod.video.ptqy.gitv.tv
 ||https://livemonitor.huan.tv
 ||https://livep.l.aiseet.atianqi.com
@@ -709,23 +713,23 @@
 ||https://ykad-gateway.youku.com
 ||https://ytx-file.110route.cn
 ||https://zeus.ad.xiaomi.com
-/.*\.*\.shouji\.sogou\.com/
-/.*\.1rtb\.com/
-/.*\.a\.market\.xiaomi\.com/
-/.*\.ad\.gameley\.com/
-/.*\.adintl\.cn/
-/.*\.adx\.adwangmai\.com/
-/.*\.data\.hicloud\.com/
-/.*\.log\.aliyuncs\.com/
-/.*\.ubixioe\.com/
-/.*\.vlion\.cn/
-/.*\.yfanads\.com/
-/.*\.zhangyuyidong\.cn/
-/[a-zA-Z0-9.-]*-ad-[a-zA-Z0-9.-]*\.byteimg\.com/
-/[a-zA-Z0-9.-]*-ad\.sm\.cn/
-/[a-zA-Z0-9.-]*-ad\.video\.yximgs\.com/
-/[a-zA-Z0-9.-]*-ad\.wtzw\.com/
-/[a-zA-Z0-9.-]*-be-pack-sign\.pglstatp-toutiao\.com/
-/[a-zA-Z0-9.-]*-normal-[a-zA-Z0-9.-]*\.zijieapi\.com/
-/[a-zA-Z0-9.-]*-normal\.zijieapi\.com/
-/cloudinject[a-zA-Z0-9.-]*-dev\.*\.[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*\.amazonaws\.com/
+/.*.*.shouji.sogou.com/
+/.*.1rtb.com/
+/.*.a.market.xiaomi.com/
+/.*.ad.gameley.com/
+/.*.adintl.cn/
+/.*.adx.adwangmai.com/
+/.*.data.hicloud.com/
+/.*.log.aliyuncs.com/
+/.*.ubixioe.com/
+/.*.vlion.cn/
+/.*.yfanads.com/
+/.*.zhangyuyidong.cn/
+/[a-zA-Z0-9.-]*-ad-[a-zA-Z0-9.-]*.byteimg.com/
+/[a-zA-Z0-9.-]*-ad.sm.cn/
+/[a-zA-Z0-9.-]*-ad.video.yximgs.com/
+/[a-zA-Z0-9.-]*-ad.wtzw.com/
+/[a-zA-Z0-9.-]*-be-pack-sign.pglstatp-toutiao.com/
+/[a-zA-Z0-9.-]*-normal-[a-zA-Z0-9.-]*.zijieapi.com/
+/[a-zA-Z0-9.-]*-normal.zijieapi.com/
+/cloudinject[a-zA-Z0-9.-]*-dev.*.[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*.amazonaws.com/
