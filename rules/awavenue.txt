@@ -1,9 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
 !Total lines: 845
-!Version: 1.6.5-release
-!Update time: 2025-05-30 20:03:25 UTC+8
-!Update content: add HKTVMALL ads block. #143
+!Version: 1.6.6-release
+!Update time: 2025-06-12 17:20:33 UTC+8
+!Update content: remove Google Analytics, its reasonable.
 
 
 
@@ -159,7 +159,6 @@
 ||https://analysis.yozocloud.cn
 ||https://analytics-api.samsunghealthcn.com
 ||https://analytics.adjust.cn
-||https://analytics.google.com
 ||https://analytics.pinterest.com
 ||https://analytics.pointdrive.linkedin.com
 ||https://analytics.query.yahoo.com
@@ -564,6 +563,7 @@
 ||https://sdk-cache.video.ptqy.gitv.tv
 ||https://sdk.1rtb.net
 ||https://sdk.ad.smaato.net
+||https://sdk.adx.adwangmai.com
 ||https://sdk.beizi.biz
 ||https://sdk.cferw.com
 ||https://sdk.hzsanjiaomao.com
