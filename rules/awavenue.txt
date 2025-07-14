@@ -1,9 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 848
-!Version: 1.6.6-release
-!Update time: 2025-06-26 21:44:45 UTC+8
-!Update content: Update domain_regex.txt
+!Total lines: 857
+!Version: 1.6.7-release
+!Update time: 2025-07-14 02:48:08 UTC+8
+!Update content: 拦截一些 Huichuan、zhuoxin 等不良广告
 
 
 
@@ -116,6 +116,7 @@
 ||https://adsmind.gdtimg.com
 ||https://adsmind.ugdtimg.com
 ||https://adsp.xunlei.com
+||https://adstat.izuiyou.com
 ||https://adstats.tencentmusic.com
 ||https://adstore-1252524079.file.myqcloud.com
 ||https://adstore-index-1252524079.file.myqcloud.com
@@ -183,6 +184,7 @@
 ||https://api-gd.hiaiabc.com
 ||https://api-htp.beizi.biz
 ||https://api.ad.xiaomi.com
+||https://api.anythinktech.com
 ||https://api.e.kuaishou.com
 ||https://api.fu.xcultur.com
 ||https://api.htp.hubcloud.com.cn
@@ -266,13 +268,14 @@
 ||https://cws-cctv.conviva.com
 ||https://d.applovin.com
 ||https://d.applvn.com
+||https://da.anythinktech.com
 ||https://data-sdk-uuid-log.d.meituan.net
 ||https://data.ads.oppomobile.com
 ||https://data.chsmarttv.com
 ||https://data.mistat.india.xiaomi.com
 ||https://data.mistat.rus.xiaomi.com
 ||https://data.mistat.xiaomi.com
-||https://datk.anythinktech.com
+||https://datacollection.uve.weibo.com
 ||https://dc.sigmob.cn
 ||https://de.tynt.com
 ||https://diagnosis.ad.xiaomi.com
@@ -351,6 +354,7 @@
 ||https://httpdns.bcelive.com
 ||https://httpdns.ocloud.oppomobile.com
 ||https://hugelog.fcbox.com
+||https://huichuan-mc.sm.cn
 ||https://huichuan.sm.cn
 ||https://hw-ot-ad.a.yximgs.com
 ||https://hw-p2p-pull.video-voip.com
@@ -360,6 +364,7 @@
 ||https://hyt.comp.360os.com
 ||https://i.l-new.inmobicdn.net
 ||https://i.l.inmobicdn.net
+||https://iad.g.163.com
 ||https://iadctest.qwapi.com
 ||https://ifacelog.iqiyi.com
 ||https://ifs.tanx.com
@@ -485,6 +490,7 @@
 ||https://mtj.baidu.com
 ||https://nadvideo2.baidu.com
 ||https://newvoice.chiq5.smart-tv.cn
+||https://nex.163.com
 ||https://nmetrics.samsung.com
 ||https://notify.sec.miui.com
 ||https://nsclick.baidu.com
@@ -628,9 +634,9 @@
 ||https://tdsdk.xdrig.com
 ||https://telemetry.sdk.inmobi.com
 ||https://tencent-dtv.m.cn.miaozhen.com
-||https://terms-drcn.platform.dbankcloud.cn
 ||https://test.ad.xiaomi.com
 ||https://test.e.ad.xiaomi.com
+||https://tk.anythinktech.com
 ||https://tnc3-aliec1.toutiaoapi.com
 ||https://tnc3-aliec2.bytedance.com
 ||https://tnc3-aliec2.toutiaoapi.com
@@ -717,6 +723,7 @@
 ||https://ykad-gateway.youku.com
 ||https://ytx-file.110route.cn
 ||https://zeus.ad.xiaomi.com
+||https://zxid-m.mobileservice.cn
 /.*.1rtb.com/
 /.*.a.market.xiaomi.com/
 /.*.ad.gameley.com/
