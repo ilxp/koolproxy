@@ -1,9 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 857
+!Total lines: 853
 !Version: 1.6.8-release
-!Update time: 2025-07-27 20:57:46 UTC+8
-!Update content: 使用更简洁的 dnsmasq 规则格式
+!Update time: 2025-08-03 17:29:46 UTC+8
+!Update content: 修复读取规则的小问题
 
 
 
@@ -692,7 +692,6 @@
 ||https://v2-ad.video.yximgs.com
 ||https://v2-api-channel-launcher.hismarttv.com
 ||https://v3-ad.video.yximgs.com
-||https://vali-ugc.cp31.ott.cibntv.net
 ||https://video-ad.sm.cn
 ||https://video-dsp.pddpic.com
 ||https://video.market.xiaomi.com
@@ -725,22 +724,19 @@
 ||https://ytx-file.110route.cn
 ||https://zeus.ad.xiaomi.com
 ||https://zxid-m.mobileservice.cn
-/.*.1rtb.com/
-/.*.a.market.xiaomi.com/
-/.*.ad.gameley.com/
-/.*.adintl.cn/
-/.*.adx.adwangmai.com/
-/.*.data.hicloud.com/
-/.*.log.aliyuncs.com/
-/.*.ubixioe.com/
-/.*.vlion.cn/
-/.*.yfanads.com/
-/.*.zhangyuyidong.cn/
-/[a-zA-Z0-9.-]*-ad-[a-zA-Z0-9.-]*.byteimg.com/
-/[a-zA-Z0-9.-]*-ad.sm.cn/
-/[a-zA-Z0-9.-]*-ad.video.yximgs.com/
-/[a-zA-Z0-9.-]*-ad.wtzw.com/
-/[a-zA-Z0-9.-]*-be-pack-sign.pglstatp-toutiao.com/
-/[a-zA-Z0-9.-]*-normal-[a-zA-Z0-9.-]*.zijieapi.com/
-/[a-zA-Z0-9.-]*-normal.zijieapi.com/
-/cloudinject[a-zA-Z0-9.-]*-dev.*.[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*-[a-zA-Z0-9.-]*.amazonaws.com/
+||https://1rtb.com
+||https://a.market.xiaomi.com
+||https://ad.gameley.com
+||https://adintl.cn
+||https://adx.adwangmai.com
+||https://data.hicloud.com
+||https://log.aliyuncs.com
+||https://ubixioe.com
+||https://vlion.cn
+||https://yfanads.com
+||https://zhangyuyidong.cn
+*-ad.sm.cn*
+*-ad.video.yximgs.com*
+*-ad.wtzw.com*
+*-be-pack-sign.pglstatp-toutiao.com*
+*-normal.zijieapi.com*
