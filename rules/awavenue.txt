@@ -1,9 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 854
+!Total lines: 860
 !Version: 1.6.8-release
-!Update time: 2025-08-05 16:30:12 UTC+8
-!Update content: add Kuwo Music ads domain.
+!Update time: 2025-08-25 00:49:58 UTC+8
+!Update content: add mihomo mrs& add AWAvenue-list.txt
 
 
 
@@ -168,6 +168,7 @@
 ||https://analyticsengine.s3.amazonaws.com
 ||https://analyze.lemurbrowser.com
 ||https://andrqd.play.aiseet.atianqi.com
+||https://ap.dongdianqiu.com
 ||https://ap.dongqiudi.com
 ||https://apd-pcdnwxlogin.teg.tencent-cloud.net
 ||https://apd-pcdnwxnat.teg.tencent-cloud.net
@@ -219,7 +220,9 @@
 ||https://bes-mtj.baidu.com
 ||https://bgg.baidu.com
 ||https://bianxian.com
+||https://biz.weibo.com
 ||https://bj.ad.track.66mobi.com
+||https://bootpreload.uve.weibo.com
 ||https://browsercfg-drcn.cloud.dbankcloud.cn
 ||https://business-api.tiktok.com
 ||https://c.bidtoolads.com
@@ -343,6 +346,7 @@
 ||https://heads-ak.spotify.com.edgesuite.net
 ||https://heads-fa.spotify.com
 ||https://hexagon-analytics.com
+||https://hlog.bigda.com
 ||https://hm.baidu.com
 ||https://hmma.baidu.com
 ||https://hotupgrade.hpplay.cn
@@ -459,6 +463,7 @@
 ||https://mini-prog-drm.vodplayvideo.net
 ||https://mission-pub.smart-tv.cn
 ||https://miui-fxcse.avlyun.com
+||https://mlog.bigda.com
 ||https://mmgame.qpic.cn
 ||https://mnqlog.ldmnq.com
 ||https://moatads.com
@@ -679,6 +684,7 @@
 ||https://ulogs.umeng.com
 ||https://ulogs.umengcloud.com
 ||https://umini.shujupie.com
+||https://union-mlog.bigda.com
 ||https://union.baidu.cn
 ||https://union.baidu.com
 ||https://update.avlyun.sec.miui.com
