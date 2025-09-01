@@ -1,9 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 860
+!Total lines: 859
 !Version: 1.6.8-release
-!Update time: 2025-08-25 00:49:58 UTC+8
-!Update content: add mihomo mrs& add AWAvenue-list.txt
+!Update time: 2025-08-29 15:37:15 UTC+8
+!Update content: 移除 Txxxxxt Bugly 拦截
 
 
 
