@@ -1,9 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 859
+!Total lines: 860
 !Version: 1.6.8-release
-!Update time: 2025-09-08 17:44:58 UTC+8
-!Update content: Update Geosite.py
+!Update time: 2025-10-10 16:48:56 UTC+8
+!Update content: 解决commits存在换行时报错 #177
 
 
 
@@ -223,6 +223,8 @@
 ||https://biz.weibo.com
 ||https://bj.ad.track.66mobi.com
 ||https://bootpreload.uve.weibo.com
+||https://browser.events.data.msn.cn
+||https://browser.events.data.msn.com
 ||https://browsercfg-drcn.cloud.dbankcloud.cn
 ||https://business-api.tiktok.com
 ||https://c.bidtoolads.com
@@ -464,7 +466,6 @@
 ||https://mission-pub.smart-tv.cn
 ||https://miui-fxcse.avlyun.com
 ||https://mlog.bigda.com
-||https://mmgame.qpic.cn
 ||https://mnqlog.ldmnq.com
 ||https://moatads.com
 ||https://mobads-logs.baidu.com
