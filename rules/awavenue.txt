@@ -1,9 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 860
+!Total lines: 859
 !Version: 1.6.8-release
-!Update time: 2025-10-10 16:48:56 UTC+8
-!Update content: 解决commits存在换行时报错 #177
+!Update time: 2025-10-31 13:44:46 UTC+8
+!Update content: fix Mosdns_v5.py error
 
 
 
@@ -452,7 +452,6 @@
 ||https://m-adnet.hiaiabc.com
 ||https://m.ad.zhangyue.com
 ||https://m.atm.youku.com
-||https://m.iqiyipic.com
 ||https://m1.ad.10010.com
 ||https://mbdlog.iqiyi.com
 ||https://mcs.zijieapi.com
