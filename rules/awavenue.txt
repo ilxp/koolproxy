@@ -1,9 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 877
+!Total lines: 904
 !Version: 1.6.9-release
-!Update time: 2025-11-18 14:48:37 UTC+8
-!Update content: 新增 jihuoniao ads、advlion ads、qiming ADX、etool ads 拦截，close #184 感谢@VJMOD
+!Update time: 2025-11-30 15:03:32 UTC+8
+!Update content: 新增 AdSet神蓍、小寻广告、掌阅log、银联广告、B612咔叽广告、更多的网易云广告、360生活广告、UC日志收集、巨量数据采集、更多的快手广告拦截。
 
 
 
@@ -30,15 +30,20 @@
 ||https://ad.doubleclick.net
 ||https://ad.gameley.com
 ||https://ad.hpplay.cn
+||https://ad.iot.360.cn
+||https://ad.jia.360.cn
+||https://ad.life.360.cn
 ||https://ad.partner.gifshow.com
 ||https://ad.qingting.fm
 ||https://ad.richmob.cn
+||https://ad.shenshiads.com
 ||https://ad.shunchangzhixing.com
 ||https://ad.tencentmusic.com
 ||https://ad.toutiao.com
 ||https://ad.v3mh.com
 ||https://ad.winrar.com.cn
 ||https://ad.ximalaya.com
+||https://ad.xunkids.com
 ||https://ad.zijieapi.com
 ||https://adapi.izuiyou.com
 ||https://adapi.yynetwk.com
@@ -69,6 +74,7 @@
 ||https://ads-video-al.xhscdn.com
 ||https://ads-video-qc.xhscdn.com
 ||https://ads.95516.com
+||https://ads.cup.com.cn
 ||https://ads.google.cn
 ||https://ads.huan.tv
 ||https://ads.huantest.com
@@ -120,6 +126,7 @@
 ||https://adtago.s3.amazonaws.com
 ||https://adtech.yahooinc.com
 ||https://adtrack.quark.cn
+||https://adv-api.shenshiads.com
 ||https://adv.sec.intl.miui.com
 ||https://adv.sec.miui.com
 ||https://advertising-api-eu.amazon.com
@@ -160,6 +167,7 @@
 ||https://analysis.yozocloud.cn
 ||https://analytics-api.samsunghealthcn.com
 ||https://analytics.adjust.cn
+||https://analytics.oceanengine.com
 ||https://analytics.pinterest.com
 ||https://analytics.pointdrive.linkedin.com
 ||https://analytics.query.yahoo.com
@@ -181,7 +189,9 @@
 ||https://api-access.pangolin-sdk-toutiao3.com
 ||https://api-access.pangolin-sdk-toutiao4.com
 ||https://api-access.pangolin-sdk-toutiao5.com
+||https://api-ad-data.kajicam.com
 ||https://api-ad-product.huxiu.com
+||https://api-ad.kajicam.com
 ||https://api-gd.hiaiabc.com
 ||https://api-htp.beizi.biz
 ||https://api.ad.xiaomi.com
@@ -202,6 +212,7 @@
 ||https://api5-normal-quic-lf.ixigua.com
 ||https://apiyd.my91app.com
 ||https://app-measurement.com
+||https://applog-perf.uc.cn
 ||https://applog.lc.quark.cn
 ||https://applog.uc.cn
 ||https://applog.zijieapi.com
@@ -304,6 +315,7 @@
 ||https://eclick.baidu.com
 ||https://edge.ads.twitch.tv
 ||https://ef-dongfeng.tanx.com
+||https://engine.dcad01.com
 ||https://entry.baidu.com
 ||https://errlog.umeng.com
 ||https://errnewlog.umeng.com
@@ -375,6 +387,7 @@
 ||https://i.l.inmobicdn.net
 ||https://iad.g.163.com
 ||https://iadctest.qwapi.com
+||https://iadmusicmat.music.126.net
 ||https://ifacelog.iqiyi.com
 ||https://ifs.tanx.com
 ||https://image-ad.sm.cn
@@ -439,6 +452,7 @@
 ||https://log.byteoversea.com
 ||https://log.fc.yahoo.com
 ||https://log.iflytek.com
+||https://log.ireader.com
 ||https://log.kuwo.cn
 ||https://log.pinterest.com
 ||https://log.popin.cc
@@ -450,15 +464,18 @@
 ||https://log1.cmpassport.com
 ||https://logbak.hicloud.com
 ||https://logrcv.aiclk.com
+||https://logrcv.yunxish.com
 ||https://logs.amap.com
 ||https://logservice.hicloud.com
 ||https://logservice1.hicloud.com
 ||https://logtj.kugou.com
 ||https://logupdate.avlyun.sec.miui.com
+||https://logwebs.kugou.com
 ||https://luimg.baidu.com
 ||https://m-adnet.hiaiabc.com
 ||https://m.ad.zhangyue.com
 ||https://m.atm.youku.com
+||https://m.shenshiads.com
 ||https://m1.ad.10010.com
 ||https://mbdlog.iqiyi.com
 ||https://mcs.zijieapi.com
@@ -480,6 +497,7 @@
 ||https://mobaliyun.res.mgtv.com
 ||https://mobile.da.mgtv.com
 ||https://mobilead.kuwo.cn
+||https://mobilelog.kugou.com
 ||https://mobilelog.upqzfile.com
 ||https://monitor-ads-test.huan.tv
 ||https://monitor-uu.play.aiseet.atianqi.com
@@ -504,6 +522,7 @@
 ||https://offerwall.yandex.net
 ||https://ogads-pa.clients6.google.com
 ||https://omgmta.play.aiseet.atianqi.com
+||https://open-set-api.shenshiads.com
 ||https://open.e.kuaishou.cn
 ||https://open.e.kuaishou.com
 ||https://open.kuaishouzt.com
@@ -527,6 +546,7 @@
 ||https://p4-be-pack-sign.pglstatp-toutiao.com
 ||https://p5-be-pack-sign.pglstatp-toutiao.com
 ||https://p6-be-pack-sign.pglstatp-toutiao.com
+||https://p66-ad.adkwai.com
 ||https://pagead2.googleadservices.com
 ||https://pagead2.googlesyndication.com
 ||https://pangolin-sdk-toutiao-b.com
@@ -572,6 +592,8 @@
 ||https://s8t.teads.tv
 ||https://saad.ms.zhangyue.net
 ||https://saas.hpplay.cn
+||https://safebrowsing.googleapis.com
+||https://safebrowsing.urlsec.gg.com
 ||https://samsung-com.112.2o7.net
 ||https://samsungads.com
 ||https://saxysec.com
@@ -676,6 +698,7 @@
 ||https://trace.aqyad.com
 ||https://tracelog-debug.aiclk.com
 ||https://tracelog-debug.qquanquan.com
+||https://tracelog-debug.yunxish.com
 ||https://track.lc.quark.cn
 ||https://track.uc.cn
 ||https://tracker.ai.xiaomi.com
@@ -736,6 +759,7 @@
 ||https://ws-keyboard.shouji.sogou.com
 ||https://wv.inner-active.mobi
 ||https://wwads.cn
+||https://xcx.dcad01.com
 ||https://xiaomi-dtv.m.cn.miaozhen.com
 ||https://xlviiirdr.com
 ||https://xlviirdr.com
@@ -747,6 +771,7 @@
 ||https://ykad-gateway.youku.com
 ||https://ytx-file.110route.cn
 ||https://zeus.ad.xiaomi.com
+||https://zjres-ad.kajicam.com
 ||https://zxid-m.mobileservice.cn
 ||https://1rtb.com
 ||https://a.market.xiaomi.com
