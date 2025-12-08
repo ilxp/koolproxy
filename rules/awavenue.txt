@@ -1,9 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 904
+!Total lines: 903
 !Version: 1.6.9-release
-!Update time: 2025-11-30 15:03:32 UTC+8
-!Update content: 新增 AdSet神蓍、小寻广告、掌阅log、银联广告、B612咔叽广告、更多的网易云广告、360生活广告、UC日志收集、巨量数据采集、更多的快手广告拦截。
+!Update time: 2025-12-05 09:34:56 UTC+8
+!Update content: fix AdguardTeam/FiltersRegistry/pull/1154
 
 
 
@@ -330,7 +330,6 @@
 ||https://firebaselogging-pa.googleapis.com
 ||https://flurry.com
 ||https://frontend-perf-service.e.kuaishou.com
-||https://fundingchoicesmessages.google.com
 ||https://fxgate.baidu.com
 ||https://g-adnet.hiaiabc.com
 ||https://g-staic.ganjingworld.com
