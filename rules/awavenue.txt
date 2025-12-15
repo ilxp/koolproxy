@@ -1,9 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 903
+!Total lines: 902
 !Version: 1.6.9-release
-!Update time: 2025-12-05 09:34:56 UTC+8
-!Update content: fix AdguardTeam/FiltersRegistry/pull/1154
+!Update time: 2025-12-11 21:51:15 UTC+8
+!Update content: fix uBlockOrigin/uAssets/issues/31096 close
 
 
 
@@ -341,7 +341,6 @@
 ||https://gemini.yahoo.com
 ||https://geo.yahoo.com
 ||https://getui.cn
-||https://getui.com
 ||https://ggx.cmvideo.cn
 ||https://ggx01.miguvideo.com
 ||https://ggx03.miguvideo.com
