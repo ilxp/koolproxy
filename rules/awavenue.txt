@@ -1,9 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 902
+!Total lines: 898
 !Version: 1.6.9-release
-!Update time: 2025-12-11 21:51:15 UTC+8
-!Update content: fix uBlockOrigin/uAssets/issues/31096 close
+!Update time: 2025-12-21 13:53:35 UTC+8
+!Update content: fix  #190
 
 
 
@@ -298,7 +298,6 @@
 ||https://de.tynt.com
 ||https://diagnosis.ad.xiaomi.com
 ||https://dig.bdurl.net
-||https://dl.zuimeitianqi.com
 ||https://dlogs.bwton.com
 ||https://dm.toutiao.com
 ||https://domain.aishengji.com
@@ -317,8 +316,6 @@
 ||https://ef-dongfeng.tanx.com
 ||https://engine.dcad01.com
 ||https://entry.baidu.com
-||https://errlog.umeng.com
-||https://errnewlog.umeng.com
 ||https://et-eus.w.inmobi.com
 ||https://event.tradplusad.com
 ||https://events-drcn.op.dbankcloud.cn
@@ -590,7 +587,6 @@
 ||https://s8t.teads.tv
 ||https://saad.ms.zhangyue.net
 ||https://saas.hpplay.cn
-||https://safebrowsing.googleapis.com
 ||https://safebrowsing.urlsec.gg.com
 ||https://samsung-com.112.2o7.net
 ||https://samsungads.com
@@ -649,6 +645,7 @@
 ||https://supply.inmobicdn.net
 ||https://sv-video.play.aiseet.atianqi.com
 ||https://syh-imp.cdnjtzy.com
+||https://syh.zybang.com
 ||https://szbdyd.com
 ||https://t-dsp.pinduoduo.com
 ||https://t.applovin.com
@@ -660,7 +657,6 @@
 ||https://t2.a.market.xiaomi.com
 ||https://t2.fancyapi.com
 ||https://t3.a.market.xiaomi.com
-||https://t7z.cupid.iqiyi.com
 ||https://t7z.cupid.ptqy.gitv.tv
 ||https://target.ads.jihuoniao.com
 ||https://tdsdk.cpatrk.net
