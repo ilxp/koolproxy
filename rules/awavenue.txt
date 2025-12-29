@@ -1,9 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 898
+!Total lines: 902
 !Version: 1.6.9-release
-!Update time: 2025-12-21 13:53:35 UTC+8
-!Update content: fix  #190
+!Update time: 2025-12-23 20:06:33 UTC+8
+!Update content: add blocked for qumao and med pro ads.
 
 
 
@@ -126,6 +126,7 @@
 ||https://adtago.s3.amazonaws.com
 ||https://adtech.yahooinc.com
 ||https://adtrack.quark.cn
+||https://adtracker.medproad.com
 ||https://adv-api.shenshiads.com
 ||https://adv.sec.intl.miui.com
 ||https://adv.sec.miui.com
@@ -474,6 +475,7 @@
 ||https://m1.ad.10010.com
 ||https://mbdlog.iqiyi.com
 ||https://mcs.zijieapi.com
+||https://medproad.com
 ||https://metrics.data.hicloud.com
 ||https://metrics.icloud.com
 ||https://metrics2.data.hicloud.com
@@ -562,6 +564,7 @@
 ||https://prod-mediate-events.applovin.com
 ||https://promotion-partner.kuaishou.com
 ||https://public.gdtimg.com
+||https://qcwx.medproad.com
 ||https://qmlog.baertt.com
 ||https://qn-cdnfile1pcdn.msstatic.com
 ||https://qzs.gdtimg.com
@@ -647,6 +650,7 @@
 ||https://syh-imp.cdnjtzy.com
 ||https://syh.zybang.com
 ||https://szbdyd.com
+||https://t-adx.52qumao.com
 ||https://t-dsp.pinduoduo.com
 ||https://t.applovin.com
 ||https://t.teads.tv
