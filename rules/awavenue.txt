@@ -1,8 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 901
+!Total lines: 910
 !Version: 1.6.9-release
-!Update time: 2026-01-15 22:37:28 UTC+8
+!Update time: 2026-01-30 10:32:33 UTC+8
+!Update content: Add SmartDNS.py
 
 
 
@@ -40,6 +41,7 @@
 ||https://ad.tencentmusic.com
 ||https://ad.toutiao.com
 ||https://ad.v3mh.com
+||https://ad.weibo.com
 ||https://ad.winrar.com.cn
 ||https://ad.ximalaya.com
 ||https://ad.xunkids.com
@@ -57,6 +59,7 @@
 ||https://adexp.liftoff.io
 ||https://adexpo.tencentmusic.com
 ||https://adguanggao.eee114.com
+||https://adimg.uve.weibo.com
 ||https://adjust.cn
 ||https://adjust.com
 ||https://adks.hpplay.cn
@@ -73,6 +76,7 @@
 ||https://ads-video-al.xhscdn.com
 ||https://ads-video-qc.xhscdn.com
 ||https://ads.95516.com
+||https://ads.auctions.yahoo.com
 ||https://ads.cup.com.cn
 ||https://ads.google.cn
 ||https://ads.huan.tv
@@ -120,12 +124,14 @@
 ||https://adstats.tencentmusic.com
 ||https://adstore-1252524079.file.myqcloud.com
 ||https://adstore-index-1252524079.file.myqcloud.com
+||https://adstrategy.biz.weibo.com
 ||https://adstudio-assets.scdn.co
 ||https://adstudio.spotify.com
 ||https://adtago.s3.amazonaws.com
 ||https://adtech.yahooinc.com
 ||https://adtrack.quark.cn
 ||https://adtracker.medproad.com
+||https://adui.tg.meitu.com
 ||https://adv-api.shenshiads.com
 ||https://adv.sec.intl.miui.com
 ||https://adv.sec.miui.com
@@ -145,6 +151,7 @@
 ||https://adx-open-service.youku.com
 ||https://adx-os.anythinktech.com
 ||https://adx-saas.advlion.com
+||https://adx-strategy-api-cn.statisticslinks.com
 ||https://adx.ads.heytapmobi.com
 ||https://adx.ads.oppomobile.com
 ||https://adx.appsdk.com.cn
@@ -217,7 +224,6 @@
 ||https://applog.uc.cn
 ||https://applog.zijieapi.com
 ||https://applovin.com
-||https://appversion.115.com
 ||https://aqyad.com
 ||https://aspect-upush.umeng.com
 ||https://auction.unityads.unity3d.com
@@ -499,6 +505,7 @@
 ||https://monitor-uu.play.aiseet.atianqi.com
 ||https://monitor.adxsenmeng.com
 ||https://monsetting.toutiao.com
+||https://mores.toponad.com
 ||https://ms.applovin.com
 ||https://ms.applvn.com
 ||https://ms4.applovin.com
@@ -606,6 +613,7 @@
 ||https://sdk.markmedia.com.cn
 ||https://sdk.mobads.adwangmai.com
 ||https://sdkapi.cloooud.com
+||https://sdkapp.uve.weibo.com
 ||https://sdkauth.hpplay.cn
 ||https://sdkconf.avlyun.com
 ||https://sdkconfig.ad.intl.xiaomi.com
@@ -661,6 +669,7 @@
 ||https://t2.fancyapi.com
 ||https://t3.a.market.xiaomi.com
 ||https://t7z.cupid.ptqy.gitv.tv
+||https://tagtic.cn
 ||https://target.ads.jihuoniao.com
 ||https://tdsdk.cpatrk.net
 ||https://tdsdk.xdrig.com
@@ -702,6 +711,7 @@
 ||https://tracker.gitee.com
 ||https://tracking.miui.com
 ||https://tracking.rus.miui.com
+||https://tuiguang.meitu.com
 ||https://tvapp.hpplay.cn
 ||https://tvuser-ch.cedock.com
 ||https://tx-ad.a.yximgs.com
