@@ -1,9 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 910
+!Total lines: 909
 !Version: 1.6.9-release
-!Update time: 2026-02-06 19:13:38 UTC+8
-!Update content: 将"隐私"和"不受欢迎"域名拆分为独立文件(仅调整脚本逻辑未改动规则内容)
+!Update time: 2026-02-10 15:15:29 UTC+8
+!Update content: remove “m1.ad.10010.com”
 
 
 
@@ -477,7 +477,6 @@
 ||https://m.ad.zhangyue.com
 ||https://m.atm.youku.com
 ||https://m.shenshiads.com
-||https://m1.ad.10010.com
 ||https://mbdlog.iqiyi.com
 ||https://mcs.zijieapi.com
 ||https://medproad.com
