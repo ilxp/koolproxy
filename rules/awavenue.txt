@@ -2,8 +2,8 @@
 !--------------------------------------
 !Total lines: 911
 !Version: 1.6.9-release
-!Update time: 2026-04-07 20:55:56 UTC+8
-!Update content: add domain #206
+!Update time: 2026-05-24 22:11:11 UTC+8
+!Update content: fix #209
 
 
 
@@ -115,6 +115,7 @@
 ||https://adsfilebssdlbig.ali.kugou.com
 ||https://adsfileretry.service.kugou.com
 ||https://adsfs-sdkconfig.heytapimage.com
+||https://adsfs.heytapimage.com
 ||https://adsfs.oppomobile.com
 ||https://adsmart.konka.com
 ||https://adsmind.gdtimg.com
@@ -311,7 +312,6 @@
 ||https://doubleclick-cn.net
 ||https://download.changhong.upgrade2.huan.tv
 ||https://downloadxml.changhong.upgrade2.huan.tv
-||https://drcn-weather.cloud.huawei.com
 ||https://dsp.fcbox.com
 ||https://dualstack-logs.amap.com
 ||https://dxp.baidu.com
