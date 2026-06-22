@@ -1,9 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 911
+!Total lines: 905
 !Version: 1.6.9-release
-!Update time: 2026-05-24 22:11:11 UTC+8
-!Update content: fix #209
+!Update time: 2026-06-15 21:32:00 UTC+8
+!Update content: 移除一些不应当被拦截的字节域名
 
 
 
@@ -679,23 +679,17 @@
 ||https://test.ad.xiaomi.com
 ||https://test.e.ad.xiaomi.com
 ||https://tk.anythinktech.com
-||https://tnc0-aliec2.zijieapi.com
-||https://tnc0-alisc1.zijieapi.com
 ||https://tnc0-bjlgy.zijieapi.com
 ||https://tnc3-aliec1.toutiaoapi.com
 ||https://tnc3-aliec2.bytedance.com
 ||https://tnc3-aliec2.snssdk.com
 ||https://tnc3-aliec2.toutiaoapi.com
-||https://tnc3-aliec2.zijieapi.com
 ||https://tnc3-alisc1.bytedance.com
 ||https://tnc3-alisc1.snssdk.com
 ||https://tnc3-alisc1.toutiaoapi.com
-||https://tnc3-alisc1.zijieapi.com
-||https://tnc3-alisc2.zijieapi.com
 ||https://tnc3-bjlgy.bytedance.com
 ||https://tnc3-bjlgy.snssdk.com
 ||https://tnc3-bjlgy.toutiaoapi.com
-||https://tnc3-bjlgy.zijieapi.com
 ||https://toblog.ctobsnssdk.com
 ||https://tpa-hcdn.iqiyi.com
 ||https://tpc.googlesyndication-cn.com
