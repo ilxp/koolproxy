@@ -1,9 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 905
-!Version: 1.6.9-release
-!Update time: 2026-06-15 21:32:00 UTC+8
-!Update content: 移除一些不应当被拦截的字节域名
+!Total lines: 903
+!Version: 1.7.6-release
+!Update time: 2026-07-27 01:45:52 UTC+8
+!Update content: 规则分类重构：拆分广告/隐私/不受欢迎三类规则源，新增Only.Ads/No.Privacy/No.Unwelcome构建变体；新增拦截校园纸条开屏广告，fix #210
 
 
 
@@ -76,6 +76,7 @@
 ||https://ads-video-al.xhscdn.com
 ||https://ads-video-qc.xhscdn.com
 ||https://ads.95516.com
+||https://ads.adfunlink.com
 ||https://ads.auctions.yahoo.com
 ||https://ads.cup.com.cn
 ||https://ads.google.cn
@@ -131,6 +132,7 @@
 ||https://adtago.s3.amazonaws.com
 ||https://adtech.yahooinc.com
 ||https://adtrack.quark.cn
+||https://adtracker.adfunlink.com
 ||https://adtracker.medproad.com
 ||https://adui.tg.meitu.com
 ||https://adv-api.shenshiads.com
@@ -305,7 +307,6 @@
 ||https://dc.sigmob.cn
 ||https://de.tynt.com
 ||https://diagnosis.ad.xiaomi.com
-||https://dig.bdurl.net
 ||https://dlogs.bwton.com
 ||https://dm.toutiao.com
 ||https://domain.aishengji.com
@@ -395,7 +396,6 @@
 ||https://image-ad.sm.cn
 ||https://image.hpplay.cn
 ||https://images.outbrainimg.com
-||https://images.pinduoduo.com
 ||https://imdns.hpplay.cn
 ||https://img-c.heytapimage.com
 ||https://img.adnyg.com.w.kunlungr.com
@@ -479,7 +479,6 @@
 ||https://m.atm.youku.com
 ||https://m.shenshiads.com
 ||https://mbdlog.iqiyi.com
-||https://mcs.zijieapi.com
 ||https://medproad.com
 ||https://metrics.data.hicloud.com
 ||https://metrics.icloud.com
