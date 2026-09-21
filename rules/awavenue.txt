@@ -1,8 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 952
+!Total lines: 963
 !Version: 1.7.6-release
-!Update time: 2026-09-09 23:35:30 UTC+8
+!Update time: 2026-09-20 20:30:39 UTC+8
+!Update content: 新增拦截欢效/章鱼移动/早范/AdGain等广告SDK域名11条，fix #216，感谢@Pideo1
 
 
 
@@ -74,6 +75,7 @@
 ||https://adlink-api.huan.tv
 ||https://adlog.vivo.com.cn
 ||https://adm.funshion.com
+||https://adm.zhangyuyidong.cn
 ||https://admarketing.yahoo.net
 ||https://admobile.top
 ||https://adreq.vivo.com.cn
@@ -135,6 +137,7 @@
 ||https://adsfs.heytapimage.com
 ||https://adsfs.oppomobile.com
 ||https://adsmart.konka.com
+||https://adsmartget.datads.cn
 ||https://adsmind.gdtimg.com
 ||https://adsmind.ugdtimg.com
 ||https://adsmoloco.com
@@ -329,6 +332,7 @@
 ||https://data.mistat.xiaomi.com
 ||https://datacollection.uve.weibo.com
 ||https://dc.sigmob.cn
+||https://de.ad.gameley.com
 ||https://de.tynt.com
 ||https://diagnosis.ad.xiaomi.com
 ||https://dlogs.bwton.com
@@ -443,6 +447,7 @@
 ||https://ixav-cse.avlyun.com
 ||https://iyfbodn.com
 ||https://jiguang.cn
+||https://jp.ad.gameley.com
 ||https://jpush.cn
 ||https://jpush.io
 ||https://jswebcollects.kugou.com
@@ -542,6 +547,7 @@
 ||https://monitor.adxsenmeng.com
 ||https://monsetting.toutiao.com
 ||https://mores.toponad.com
+||https://mpcfg.fancydsp.com
 ||https://ms.applovin.com
 ||https://ms.applvn.com
 ||https://ms4.applovin.com
@@ -641,15 +647,19 @@
 ||https://scs.openspeech.cn
 ||https://sdk-ab-config.qquanquan.com
 ||https://sdk-cache.video.ptqy.gitv.tv
+||https://sdk-track.66mobi.com
 ||https://sdk.1rtb.net
 ||https://sdk.ad.smaato.net
+||https://sdk.adhuanxiao.com
 ||https://sdk.adx.adwangmai.com
 ||https://sdk.aqyad.com
 ||https://sdk.beizi.biz
 ||https://sdk.cferw.com
 ||https://sdk.hzsanjiaomao.com
+||https://sdk.hzzfcm.com
 ||https://sdk.markmedia.com.cn
 ||https://sdk.mobads.adwangmai.com
+||https://sdk.zhangyuyidong.cn
 ||https://sdkapi.cloooud.com
 ||https://sdkapp.uve.weibo.com
 ||https://sdkauth.hpplay.cn
@@ -657,6 +667,7 @@
 ||https://sdkconfig.ad.intl.xiaomi.com
 ||https://sdkconfig.ad.xiaomi.com
 ||https://sdkconfig.play.aiseet.atianqi.com
+||https://sdklog.zhangyuyidong.cn
 ||https://sdkoptedge.chinanetcenter.com
 ||https://sdktmp.hubcloud.com.cn
 ||https://sdownload.stargame.com
@@ -803,6 +814,7 @@
 ||https://ws.tapjoyads.com
 ||https://wv.inner-active.mobi
 ||https://wwads.cn
+||https://xadsmartget.adgain.cn
 ||https://xcx.dcad01.com
 ||https://xiaomi-dtv.m.cn.miaozhen.com
 ||https://xlviiirdr.com
