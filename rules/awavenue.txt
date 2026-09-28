@@ -1,9 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 963
-!Version: 1.7.6-release
-!Update time: 2026-09-20 20:30:39 UTC+8
-!Update content: 新增拦截欢效/章鱼移动/早范/AdGain等广告SDK域名11条，fix #216，感谢@Pideo1
+!Total lines: 965
+!Version: 1.7.8-release
+!Update time: 2026-09-21 21:56:59 UTC+8
+!Update content: 新增拦截哔咔漫画广告接口与展示页域名2条，fix #204，感谢@0xLac
 
 
 
@@ -601,6 +601,8 @@
 ||https://pgdt.gtimg.cn
 ||https://pgdt.ugdtimg.com
 ||https://pglstatp-toutiao.com
+||https://pica-a-display.diwodiwo.xyz
+||https://pica-ad-api.diwodiwo.xyz
 ||https://pig.pupuapi.com
 ||https://pin.hpplay.cn
 ||https://pixon.ads-pixiv.net
