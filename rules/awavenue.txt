@@ -1,9 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 965
+!Total lines: 976
 !Version: 1.7.8-release
-!Update time: 2026-09-21 21:56:59 UTC+8
-!Update content: 新增拦截哔咔漫画广告接口与展示页域名2条，fix #204，感谢@0xLac
+!Update time: 2026-10-22 21:27:09 UTC+8
+!Update content: 新增海信与乐播广告拦截并调整会员推广分类
 
 
 
@@ -17,6 +17,8 @@
 ||https://abtest-ch.snssdk.com
 ||https://ad-api.4pyun.com
 ||https://ad-cdn.qingting.fm
+||https://ad-cmp.hismarttv.com
+||https://ad-download.hismarttv.com
 ||https://ad-files.4pyun.com
 ||https://ad-scope.com
 ||https://ad-scope.com.cn
@@ -274,6 +276,7 @@
 ||https://biz.weibo.com
 ||https://bj-td-menta-01-callback.advlion.com
 ||https://bj.ad.track.66mobi.com
+||https://boost-cmp.hismarttv.com
 ||https://bootpreload.uve.weibo.com
 ||https://brandadsstatic.vivo.com.cn
 ||https://browser.events.data.msn.cn
@@ -368,6 +371,7 @@
 ||https://fxgate.baidu.com
 ||https://g-adnet.hiaiabc.com
 ||https://g-staic.ganjingworld.com
+||https://g.cn.miaozhen.com
 ||https://g.dtv.cn.miaozhen.com
 ||https://g.fancyapi.com
 ||https://g2.ganjing.world
@@ -434,6 +438,7 @@
 ||https://img-c.heytapimage.com
 ||https://img.adnyg.com.w.kunlungr.com
 ||https://img2.360buyimg.com
+||https://imp-cmp.hismarttv.com
 ||https://impression-asia.chinaliftoff.io
 ||https://impression-asia.liftoff.io
 ||https://impression.appsflyer.com
@@ -473,6 +478,7 @@
 ||https://lives.l.aiseet.atianqi.com
 ||https://livewebbs2pcdn.msstatic.com
 ||https://lm10111.jtrincc.cn
+||https://loading-cmp.hismarttv.com
 ||https://log-api-mn.huxiu.com
 ||https://log-api.huxiu.com
 ||https://log-api.pangolin-sdk-toutiao-b.com
@@ -553,6 +559,7 @@
 ||https://ms4.applovin.com
 ||https://ms4.applvn.com
 ||https://msdk.voiceads.cn
+||https://msg-cmp.hismarttv.com
 ||https://mssdk.volces.com
 ||https://mssdk.zijieapi.com
 ||https://mtj.baidu.com
@@ -595,6 +602,7 @@
 ||https://pagead2.googleadservices.com
 ||https://pagead2.googlesyndication.com
 ||https://pangolin-sdk-toutiao-b.com
+||https://paster-cmp.hismarttv.com
 ||https://pay.sboot.cn
 ||https://pcdn.xmcdn.com
 ||https://pcdn.yximgs.com
@@ -619,6 +627,7 @@
 ||https://qmlog.baertt.com
 ||https://qn-cdnfile1pcdn.msstatic.com
 ||https://qzs.gdtimg.com
+||https://recmd-cmp.hismarttv.com
 ||https://recommend-drcn.hms.dbankcloud.cn
 ||https://report.dxunion.cn
 ||https://report.tencentmusic.com
@@ -628,6 +637,7 @@
 ||https://res2.hubcloud.com.cn
 ||https://res3.hubcloud.com.cn
 ||https://resolve.umeng.com
+||https://resource-cmp.hismarttv.com
 ||https://review.gdtimg.com
 ||https://rlog.popin.cc
 ||https://rms-drcn.platform.dbankcloud.cn
@@ -794,6 +804,7 @@
 ||https://v1-ad.video.yximgs.com
 ||https://v2-ad.video.yximgs.com
 ||https://v2-api-channel-launcher.hismarttv.com
+||https://v2.reachmax.cn
 ||https://v3-ad.video.yximgs.com
 ||https://video-ad.sm.cn
 ||https://video-dsp.pddpic.com
