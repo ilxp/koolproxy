@@ -1,9 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 976
-!Version: 1.7.8-release
-!Update time: 2026-10-22 21:27:09 UTC+8
-!Update content: 新增海信与乐播广告拦截并调整会员推广分类
+!Total lines: 971
+!Version: 1.7.9-release
+!Update time: 2026-11-15 00:37:33 UTC+8
+!Update content: 新增拦截识x、小黑盒、淘x等App的日志埋点与设备指纹上报域名10条
 
 
 
@@ -82,16 +82,15 @@
 ||https://admobile.top
 ||https://adreq.vivo.com.cn
 ||https://ads-api-o.api.leiniao.com
-||https://ads-api.tiktok.com
 ||https://ads-img-al.xhscdn.com
+||https://ads-img-bak.xhscdn.com
 ||https://ads-img-qc.xhscdn.com
-||https://ads-jp.tiktok.com
 ||https://ads-marketing-vivofs.vivo.com.cn
 ||https://ads-sdk-api.ranfenghd.com
-||https://ads-sg.tiktok.com
 ||https://ads-shopping.shouqianba.com
 ||https://ads-video-al.xhscdn.com
 ||https://ads-video-qc.xhscdn.com
+||https://ads-vp5.xhscdn.com
 ||https://ads.95516.com
 ||https://ads.adfunlink.com
 ||https://ads.auctions.yahoo.com
@@ -109,7 +108,6 @@
 ||https://ads.raidrive.com
 ||https://ads.servebom.com
 ||https://ads.service.kugou.com
-||https://ads.tiktok.com
 ||https://ads.v3mh.com
 ||https://ads.youtube.com
 ||https://ads.zhinengxiyifang.cn
@@ -144,16 +142,13 @@
 ||https://adsmind.ugdtimg.com
 ||https://adsmoloco.com
 ||https://adsp.xunlei.com
-||https://adspecs.yahoo.com
 ||https://adstat.izuiyou.com
 ||https://adstats.tencentmusic.com
 ||https://adstore-1252524079.file.myqcloud.com
 ||https://adstore-index-1252524079.file.myqcloud.com
 ||https://adstrategy.biz.weibo.com
 ||https://adstudio-assets.scdn.co
-||https://adstudio.spotify.com
 ||https://adtago.s3.amazonaws.com
-||https://adtech.yahooinc.com
 ||https://adtrack.quark.cn
 ||https://adtracker.adfunlink.com
 ||https://adtracker.medproad.com
@@ -161,11 +156,6 @@
 ||https://adv-api.shenshiads.com
 ||https://adv.sec.intl.miui.com
 ||https://adv.sec.miui.com
-||https://advertising-api-eu.amazon.com
-||https://advertising-api-fe.amazon.com
-||https://advertising-api.amazon.com
-||https://advertising.yahoo.com
-||https://advertising.yandex.ru
 ||https://advice-ads.s3.amazonaws.com
 ||https://adview.cn
 ||https://adx-ad.smart-tv.cn
@@ -249,6 +239,7 @@
 ||https://api.yfanads.com
 ||https://api5-normal-quic-lf.ixigua.com
 ||https://apiyd.my91app.com
+||https://apmplus.volces.com
 ||https://app-measurement.com
 ||https://applog-perf.uc.cn
 ||https://applog.lc.quark.cn
@@ -308,6 +299,7 @@
 ||https://click.liftoff.io
 ||https://click.oneplus.cn
 ||https://click4.chinaliftoff.io
+||https://client-upload.cn-shanghai.log.aliyuncs.com
 ||https://clog.miguvideo.com
 ||https://cloooud.com
 ||https://cn-api.anythinktech.com
@@ -323,7 +315,6 @@
 ||https://cpc-service-square.aiclk.com
 ||https://cpro.baidustatic.com
 ||https://crashlyticsreports-pa.googleapis.com
-||https://csjplatform.com
 ||https://d.applovin.com
 ||https://d.applvn.com
 ||https://da.anythinktech.com
@@ -346,6 +337,7 @@
 ||https://downloadxml.changhong.upgrade2.huan.tv
 ||https://dsp.fcbox.com
 ||https://dsplog-adnet.vivo.com.cn
+||https://du-app.cn-hangzhou.log.aliyuncs.com
 ||https://dualstack-logs.amap.com
 ||https://dxp.baidu.com
 ||https://dyp2p-ali.douyucdn.cn
@@ -356,6 +348,7 @@
 ||https://ef-dongfeng.tanx.com
 ||https://engine.dcad01.com
 ||https://entry.baidu.com
+||https://errnewlog.umeng.com
 ||https://et-eus.w.inmobi.com
 ||https://event.tradplusad.com
 ||https://events-drcn.op.dbankcloud.cn
@@ -367,6 +360,7 @@
 ||https://feed-image.baidu.com
 ||https://firebaselogging-pa.googleapis.com
 ||https://flurry.com
+||https://fp-it.fengkongcloud.com
 ||https://frontend-perf-service.e.kuaishou.com
 ||https://fxgate.baidu.com
 ||https://g-adnet.hiaiabc.com
@@ -466,6 +460,7 @@
 ||https://l6.fancyapi.com
 ||https://launcher.smart-tv.cn
 ||https://launcherimg.smart-tv.cn
+||https://lf-event-manager.oceanengine.com
 ||https://lf3-ad-union-sdk.pglstatp-toutiao.com
 ||https://lf6-ad-union-sdk.pglstatp-toutiao.com
 ||https://lftxali.fancyapi.com
@@ -483,6 +478,7 @@
 ||https://log-api.huxiu.com
 ||https://log-api.pangolin-sdk-toutiao-b.com
 ||https://log-api.pangolin-sdk-toutiao.com
+||https://log-auth.zztfly.com
 ||https://log-report.com
 ||https://log-sdk.gifshow.com
 ||https://log-sdk.ksapisrv.com
@@ -694,6 +690,8 @@
 ||https://service.vmos.cn
 ||https://sf16-static.i18n-pglstatp.com
 ||https://sf3-fe-tos.pglstatp-toutiao.com
+||https://shihuo-new.log.shihuocdn.cn
+||https://shihuo.log.shihuocdn.cn
 ||https://shouji.sogou.com
 ||https://sigmob.com
 ||https://sl.hpplay.cn
@@ -789,9 +787,8 @@
 ||https://umini.shujupie.com
 ||https://union-mlog.bigda.com
 ||https://union-record.oss-cn-zhangjiakou.aliyuncs.com
-||https://union.baidu.cn
-||https://union.baidu.com
 ||https://unityads.unity3d.com
+||https://upc.zztfly.com
 ||https://update.avlyun.sec.miui.com
 ||https://update.lejiao.tv
 ||https://update0.aiclk.com
