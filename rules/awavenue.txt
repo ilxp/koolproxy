@@ -1,9 +1,9 @@
 !Title: AWAvenue Ads Rule
 !--------------------------------------
-!Total lines: 971
+!Total lines: 985
 !Version: 1.7.9-release
-!Update time: 2026-11-15 00:37:33 UTC+8
-!Update content: 新增拦截识x、小黑盒、淘x等App的日志埋点与设备指纹上报域名10条
+!Update time: 2026-11-23 00:33:15 UTC+8
+!Update content: IP规则补充no-resolve并修正IPv6与正则输出#221，感谢@hhh2210
 
 
 
@@ -171,6 +171,7 @@
 ||https://adx-strategy-api-cn.statisticslinks.com
 ||https://adx.ads.heytapmobi.com
 ||https://adx.ads.oppomobile.com
+||https://adx.anythinktech.com
 ||https://adx.appsdk.com.cn
 ||https://adx.sogaha.cn
 ||https://adx.tuia.cn
@@ -188,6 +189,7 @@
 ||https://alicoccdnct-xn.inter.71edge.com
 ||https://alltbcsp2p.baidu.com
 ||https://alog.umeng.com
+||https://alogsus.umeng.com
 ||https://alogus.umeng.com
 ||https://als.baidu.com
 ||https://analysis.chatglm.cn
@@ -264,6 +266,7 @@
 ||https://bes-mtj.baidu.com
 ||https://bgg.baidu.com
 ||https://bianxian.com
+||https://bid.shanghailingye.cn
 ||https://biz.weibo.com
 ||https://bj-td-menta-01-callback.advlion.com
 ||https://bj.ad.track.66mobi.com
@@ -302,7 +305,10 @@
 ||https://client-upload.cn-shanghai.log.aliyuncs.com
 ||https://clog.miguvideo.com
 ||https://cloooud.com
+||https://cn-api-sec.anythinktech.com
 ||https://cn-api.anythinktech.com
+||https://cn-da.anythinktech.com
+||https://cn-tk.anythinktech.com
 ||https://cnlogs.umeng.com
 ||https://cnlogs.umengcloud.com
 ||https://cnzz.com
@@ -318,6 +324,7 @@
 ||https://d.applovin.com
 ||https://d.applvn.com
 ||https://da.anythinktech.com
+||https://da.statisticslinks.com
 ||https://data-sdk-uuid-log.d.meituan.net
 ||https://data.ads.oppomobile.com
 ||https://data.chsmarttv.com
@@ -348,7 +355,10 @@
 ||https://ef-dongfeng.tanx.com
 ||https://engine.dcad01.com
 ||https://entry.baidu.com
+||https://errlog.umeng.com
+||https://errlogos.umeng.com
 ||https://errnewlog.umeng.com
+||https://errnewlogos.umeng.com
 ||https://et-eus.w.inmobi.com
 ||https://event.tradplusad.com
 ||https://events-drcn.op.dbankcloud.cn
@@ -700,6 +710,7 @@
 ||https://smartad.10010.com
 ||https://smetrics.samsung.com
 ||https://sms.ads.oppomobile.com
+||https://ssapi.anythinktech.com
 ||https://ssp.cloooud.com
 ||https://staging-notify.sec.miui.com
 ||https://stat.dongqiudi.com
@@ -738,6 +749,7 @@
 ||https://test.ad.xiaomi.com
 ||https://test.e.ad.xiaomi.com
 ||https://tk.anythinktech.com
+||https://tk.statisticslinks.com
 ||https://tnc0-bjlgy.zijieapi.com
 ||https://tnc3-aliec1.toutiaoapi.com
 ||https://tnc3-aliec2.bytedance.com
@@ -749,6 +761,7 @@
 ||https://tnc3-bjlgy.bytedance.com
 ||https://tnc3-bjlgy.snssdk.com
 ||https://tnc3-bjlgy.toutiaoapi.com
+||https://tobapplog.ctobsnssdk.com
 ||https://toblog.ctobsnssdk.com
 ||https://tpa-hcdn.iqiyi.com
 ||https://tpc.googlesyndication-cn.com
